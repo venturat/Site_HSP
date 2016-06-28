@@ -1,0 +1,10 @@
+body {
+	background: red;
+}
+.navbar {
+	background-color: white;
+}
+.navbar .navbar-nav img {
+	width: 70px;
+	display: block;
+}
