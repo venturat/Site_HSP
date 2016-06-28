@@ -1114,7 +1114,7 @@ figure {
   margin: 0;
 }
 img {
-  vertical-align: middle;
+  /* horizontal-align: middle; */
 }
 .img-responsive,
 .thumbnail > img,
@@ -4016,7 +4016,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #e5e5e5;
 }
 .nav > li > a > img {
-  max-width: none;
+  /* max-width: 70px; */
 }
 .nav-tabs {
   border-bottom: 1px solid #ddd;
@@ -4365,6 +4365,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
+    font-size: 12px;
+    max-width: 90px;
+    text-align: center;
   }
 }
 .navbar-form {
