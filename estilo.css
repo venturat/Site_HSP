@@ -80,8 +80,9 @@ h3 {
           	align-items: left;
           }
 
-
-
-
-
-
+.container img {
+  border: solid 2px;
+  border-color: blue;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  }
