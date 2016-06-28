@@ -1,5 +1,7 @@
 body {
-	background: red;
+	background: ;
+	font-family: roboto;
+	align-items: center;
 }
 .navbar {
 	background-color: white;
@@ -7,4 +9,11 @@ body {
 .navbar .navbar-nav img {
 	width: 70px;
 	display: block;
+}
+.navbar-brand img {
+	width: 174px;
+	height:76px;
+}
+.navbar-form {
+	align-items: right;
 }
