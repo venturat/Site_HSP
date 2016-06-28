@@ -56,6 +56,10 @@ h3 {
         border: 5px;
         height: 400px;
         width: 267px;
+        border: solid 2px;
+       border-color: blue;
+      border-top-left-radius: 20px;
+     border-bottom-right-radius: 20px;
      }
       
      form {
@@ -81,8 +85,5 @@ h3 {
           }
 
 .container img {
-  border: solid 2px;
-  border-color: blue;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  
   }
