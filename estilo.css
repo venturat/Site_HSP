@@ -109,8 +109,17 @@ footer>section>div>p {
 footer>section>div {
   padding: 20px;
   background-color: #29388D;
+  }
+.cadastro {
+  height: 171px;
+  background-color: #808ed9;
 }
-
 .container img {
   
   }
+.copyright {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  padding:0px;
+}
