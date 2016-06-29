@@ -40,6 +40,10 @@ h3 {
   padding-left: 20px;
   margin-left: 20px;
 }
+h5 {
+  text-align: right;
+  color: #2b368e;
+}
 	 input{
       width: 435px;
       height: 56px;
@@ -114,12 +118,40 @@ footer>section>div {
   height: 171px;
   background-color: #808ed9;
 }
-.container img {
-  
-  }
 .copyright {
   text-align: center;
   color: white;
   font-size: 12px;
   padding:0px;
+}
+.row-cadastro {
+max-height: 171px;
+max-width: 154px;
+padding-left: 154px;
+}
+.column {
+  box-sizing:154px;
+  border-box;
+}
+
+/* carrinho */
+
+.busca-carrinho {
+  width: 170% !important;
+    padding-right: 60px;
+    box-sizing: border-box;
+    margin-right: -15px;
+}
+
+.botao-busca-carrinho {
+      border: none;
+    background: transparent;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.botao-carrinho {
+      padding: 0;
+    border: none;
+    background: transparent;
 }
