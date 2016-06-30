@@ -1,7 +1,7 @@
 body {
-	background:;
-	font-family: roboto;
-	margin: auto;
+  background:;
+  font-family: roboto;
+  margin: auto;
 }
 
 .container {
@@ -14,14 +14,16 @@ height: 200px;
     left: 0px;
     height: 135px;
     background-color: white;
+
 }
 
 .navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 10px;
-    font-size: 12px;
-    max-width: 106px;
+    font-size: 14px;
+    max-width: 116px;
     text-align: center;
+    line-height: none !important;
 }
 
 .navbar-nav{
@@ -39,22 +41,22 @@ height: 200px;
 }
 
 li{
-	display: block;
+  display: block;
 }
 
 h1 {
-	font-size: 10px;
-	color: #5f68a0;
+  font-size: 10px;
+  color: #5f68a0;
 }
 
 h2 {
-	font-size-adjust: 10px;
+  font-size-adjust: 10px;
 }
 
 h3 {
 
-	font-size: 10px;
-	}
+  font-size: 10px;
+  }
 
   h4 {
   font-size: 14px;
@@ -86,7 +88,7 @@ h5 {
     margin-left: 937px;
  }
 
-	 input>.form-control {
+   input>.form-control {
       width: 435px;
       height: 56px;
       text-align: center;
@@ -94,6 +96,10 @@ h5 {
       border-bottom-radius: 20px;
      }
 
+section>#id>.destaque {
+  align-items: center;
+  margin top: 100px;
+}
 .destaque {
     background-color: #808ed9;
     width: 150px;
@@ -104,9 +110,9 @@ h5 {
     text-align: center!important;
     font-size: 18px !important;
     padding-top: 8px;
-    padding-right: 16px;
+    padding-right: 0px;
     color: white;
-    margin-left: 89px;
+    margin-left: 96px;
   }
   .destaque-img {
     width: 1280px;
@@ -123,22 +129,29 @@ h5 {
 
      .produto {
       padding: 20px;
-      margin-bottom: 20px;
+      margin-bottom: 9px;
       align-items: center;
       display: block;
   }
 
+.produtogeral {
+
+  
+}
   .col-lg-4 {
         color:#D9DAEB;
         border: 5px;
         height: 400px;
         width: 267px;
+        margin: 27px;
+        margin-top: 10px;
+        margin-left: -10px;
         border: solid 2px;
        border-color: blue;
       border-top-left-radius: 20px;
      border-bottom-right-radius: 20px;
      }
-      
+    
      form {
       border-radius: 5px;
       text-align: right;
@@ -152,9 +165,9 @@ h5 {
           }
 
           .form-control {
-          	align-items: left;
-          	max-width: 285px;
-          	padding: 15px;
+            align-items: left;
+            max-width: 285px;
+            padding: 15px;
           }
 
           .button-02 {
@@ -164,8 +177,9 @@ h5 {
         }
 
           section>div>input>button> {
-          	align-items: left;
+            align-items: left;
           }
+}
 
 .form-control {
     display: block;
@@ -235,19 +249,21 @@ footer>section>div {
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 
-.carta {
-    /* display: block; */
-    width: 62px;
+
+
+.botaocarta {
+margin-left: 25px;
+width: 62px;
     height: 39px;
-    padding: 6px 12px;
+    padding: 6px;
     font-size: 14px;
-    margin-left: -479px;
-    margin-top: -50px;
+    margin-left: 342px;
+    margin-top: -39px;
     border-top-left-radius: 0px;
     border-bottom-right-radius: 20px;
     background-color: #ffcc05;
     background-image: carta-rodape;
-        }
+}
 
 .copyright {
   height: 110px;
@@ -282,7 +298,8 @@ padding-left: 154px;
     box-sizing: border-box;
     margin-right: 38px;
     background-color: #d3d5eb;
-    color: white;
+    color: #29388d;
+    border-radius: 18px;
 }
 
 .botao-busca-carrinho {
@@ -298,7 +315,3 @@ padding-left: 154px;
     background: transparent;
     border-color: #fff;
 }
-    width: 328px!important;
-    padding-right: 70px;
-    box-sizing: border-box;
-    margin-right: 38px;
